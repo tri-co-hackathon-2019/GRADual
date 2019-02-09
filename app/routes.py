@@ -9,7 +9,7 @@ taken_courses = []
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index')
 def index():
-    courses = Course.query.all()
+    courses = Course.query.filter_by(core=True)
     cs105 = Course.query.filter_by(number=105).first()
 
     if len(taken_courses) != 0:
