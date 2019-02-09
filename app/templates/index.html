@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Stylish Portfolio - Start Bootstrap Template</title>
+  <title>Gradual</title>
 
   <!-- Bootstrap Core CSS -->
   <!-- <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }} " rel="stylesheet">
@@ -36,7 +36,7 @@
     <div class="container text-center my-auto">
       <h1 class="mb-1" >Welcome, friend.</h1>
       <h3 class="mb-4">
-        <em>Do you want to graduate?</em>
+
       </h3>
 
       <div class="dropdown show" >
@@ -62,7 +62,7 @@
       <div class="row">
         <div class="col-lg-9 float-left mx-table margin-top" >
 
-          <h5>Table Head Colors</h5>
+          <h5>Four Year Schedule</h5>
 
             <table class="table table-hover">
               <thead class="thead-danger margin-top">
@@ -76,10 +76,21 @@
               <tbody>
                 <tr>
                   <td>
+
+                    <div class="font-weight-light form-group">
+
+                      <select class="form-control" id="sel1">
+                        <option>Select course</option>
+                        <option>CS 105</option>
+
+
+                      </select>
+                    </div>
+                    <!--
                     <form class="form-inline" method="POST" action="{{ url_for('test') }}">
                       <div class="form-group">
                         <div class="input-group">
-                            <span class="input-group-addon">Please select</span>
+                            <span class="input-group-addon"></span>
                                 <select name="comp_select" class="selectpicker form-control">
                                   {% for course in fall_lst %}
                                   <option value="{{ course.number }}">{{ course.number }}</option>
@@ -88,8 +99,8 @@
                         </div>
                         <button type="submit" class="btn btn-default">Go</button>
                       </div>
-                    </form>
-                    
+                    </form> -->
+
 
                   </td>
                   <td>
@@ -98,39 +109,123 @@
 
                       <select class="form-control" id="sel1">
                         <option>Select course</option>
-                        <option>CS 105</option>
-                        <option>CS 106</option>
-                        <option>CS 107</option>
-
-                        for course in course
-
-
+                        <option>CS 231</option>
+                        <option>MATH 215</option>
+                        <option>CS 208</option>
+                        <option>CS 287</option>
                       </select>
                     </div>
 
 
                   </td>
-                  <td>john@example.com</td>
-                  <td>mary@example.com</td>
+                  <td>
+                    <div class="font-weight-light form-group">
+
+                      <select class="form-control" id="sel1">
+                        <option>Select course</option>
+                        <option>CS 240</option>
+                        <option>CS 340</option>
+
+
+
+                      </select>
+                    </div>
+                  </td>
+
+                  <td>
+                    <div class="font-weight-light form-group">
+
+                      <select class="form-control" id="sel1">
+                        <option>Select course</option>
+                        <option>CS 399</option>
+
+                      </select>
+                    </div>
+                  </td>
                 </tr>
                 <tr>
-                  <td>Mary</td>
-                  <td>Moe</td>
-                  <td>mary@example.com</td>
-                  <td>mary@example.com</td>
+                  <td>
+                    <div class="font-weight-light form-group">
+
+                      <select class="form-control" id="sel1">
+                        <option>Select course</option>
+                        <option>CS 106</option>
+                        <option>CS 231</option>
+
+                      </select>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="font-weight-light form-group">
+                      <select class="form-control" id="sel1">
+                        <option>Select course</option>
+                        <option>MATH 215</option>
+
+                        <option>CS 208</option>
+                        <option>CS 287</option>
+
+                      </select>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="font-weight-light form-group">
+
+                      <select class="form-control" id="sel1">
+                        <option>Select course</option>
+
+                      </select>
+                    </div>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
                 </tr>
                 <tr>
-                  <td>July</td>
-                  <td>Dooley</td>
-                  <td>july@example.com</td>
-                  <td>mary@example.com</td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
                 </tr>
 
                 <tr>
-                  <td>July</td>
-                  <td>Dooley</td>
-                  <td>july@example.com</td>
-                  <td>mary@example.com</td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
                 </tr>
               </tbody>
 
@@ -145,29 +240,100 @@
 
               <tbody>
                 <tr>
-                  <td>John</td>
-                  <td>Doe</td>
-                  <td>john@example.com</td>
-                  <td>mary@example.com</td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                      <option>CS 106</option>
+                      <option>CS 231</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                      <option>CS 245</option>
+                      <option>CS 345</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                      <option>CS 350</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                      <option>CS 399</option>
+                      <option>CS 400</option>
+                    </select>
+                  </td>
                 </tr>
                 <tr>
-                  <td>Mary</td>
-                  <td>Moe</td>
-                  <td>mary@example.com</td>
-                  <td>mary@example.com</td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
                 </tr>
                 <tr>
-                  <td>July</td>
-                  <td>Dooley</td>
-                  <td>july@example.com</td>
-                  <td>mary@example.com</td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
                 </tr>
 
                 <tr>
-                  <td>July</td>
-                  <td>Dooley</td>
-                  <td>july@example.com</td>
-                  <td>mary@example.com</td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-control" id="sel1">
+                      <option>Select course</option>
+                    </select>
+                  </td>
                 </tr>
               </tbody>
 
@@ -209,12 +375,12 @@
 
           {% for course in courses %}
           <div class="funkyradio-success text-center">
-            <input class="text-center" type="checkbox" onclick="return false;" name="checkbox" id="checkbox" />
-            <label class="text-left" for="checkbox"> CS {{ course.number }}</label>
+            <input class="text-center" type="checkbox"  name="checkbox" id="{{ course.number }}" />
+            <label class="text-left" for="{{ course.number }}"> CS {{ course.number }}</label>
           </div>
           {% endfor %}
 
-        
+
 
 
 

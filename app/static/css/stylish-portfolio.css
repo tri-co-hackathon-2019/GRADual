@@ -28,13 +28,13 @@ body {
 }
 
 .table-top-padding{
-  padding-top: 2rem;
+  padding-top: 1em;
   padding-bottom: 2rem;
 }
 
 
 .margin-top{
-  padding-top: 0rem;
+  padding-top: -0.5rem;
   padding-bottom: 0rem;
 }
 .content-section-heading h2 {
