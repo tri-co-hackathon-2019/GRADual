@@ -197,7 +197,11 @@
       <div class="funkyradio">
         <div class="funkyradio-success">
           <input type="checkbox" onclick="return false;" checked="checked" name="checkbox" id="checkbox" />
-            <label for="checkbox">Third Option success</label>
+          
+          {% for course in courses %}
+          <label for="checkbox"> {{ course.number }}</label>
+          {% endfor %}
+          
         </div>
 
         <div class="funkyradio-success">
