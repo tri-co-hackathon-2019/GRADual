@@ -14,14 +14,3 @@ class Course:
         return "{}{} ({})".format(self.department,
                                 self.number,
                                 self.domain)
-
-    # def get_department():
-    #     return self.department
-
-    # def get_number():
-    #     return self.number
-
-    # def get_term():
-    #     return self.term
-
-    # def get_frequency(
