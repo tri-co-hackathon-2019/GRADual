@@ -2,6 +2,14 @@
 
 This is a project created for the Spring 2019 TriCo Hackathon. We wanted to create a site that, in just a few clicks, students can use to map out their entire four years!
 
+## Authors
+* **Jason Ngo** - *Back-end work*
+* **Blien Habtu** - *Back-end work*
+* **Iryna Khovryak** - *Front-end work* 	
+* **Bella Muno** - *Front-end work*
+* **Ziyao (Claire) Wang** - *Front-end work*
+
+## Getting Started
 ### Prerequisites
 - `Python 3.6`
 - `pip`
@@ -39,12 +47,9 @@ The site prompts the student to input a major. Then it auto-populates a table wi
 * [Bootstrap](https://getbootstrap.com/) - Front-end component library
 * [Flask-SQLAlchemy](http://flask-sqlalchemy.pocoo.org/2.3/) - Extension for Flask
 
-## Authors
-* **Jason Ngo** - *Back-end work*
-* **Blien Habtu** - *Back-end work*
-* **Iryna Khovryak** - *Front-end work* 	
-* **Bella Muno** - *Front-end work*
-* **Ziyao (Claire) Wang** - *Front-end work*
+## Presentation
+See our beautiful presentation [here](https://docs.google.com/presentation/d/1PjIZG-pibjpCQITDE-zyxkUG_wh3TNCkFltHtgoQ6kI/edit?usp=sharing)
+
 
 ## License
 
