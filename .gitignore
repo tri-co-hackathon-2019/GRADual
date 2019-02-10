@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 node_modules
-=======
 .DS_Store
 .env
-.flaskenv
 *.pyc
 *.pyo
 env/
@@ -25,4 +22,3 @@ htmlcov/
 .coverage.*
 *,cover
 .vscode/
->>>>>>> be2edcce1d35807ab4014e93dea5e12efded4b0f
